@@ -3,12 +3,13 @@
 Two ASP.NET Core (.NET 8) applications, developed and run on WSL Ubuntu 24.04.
 
 ## Structure
+```text
 csharp-assignment/
 ├── CSharpAssignment.sln
 └── src/
     ├── RestApi/         # REST API — CRUD over an in-memory store
     └── WebSocketApp/    # WebSocket server — echo + broadcast
-
+```
 
 ## Prerequisites
 
