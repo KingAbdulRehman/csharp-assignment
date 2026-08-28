@@ -85,3 +85,37 @@ WebSocket — using the small Node client in this repo's sibling folder, or any 
 node client.js A   # terminal 1
 node client.js B   # terminal 2 — client A receives B's message
 ```
+
+## Screenshots
+
+### REST API
+
+**Swagger UI — all endpoints**
+
+![Swagger overview](docs/screenshots/rest-api-swagger.png)
+
+**Health check**
+
+![Health check](docs/screenshots/rest-api-healthcheck.png)
+
+**Create an item — 201 with a Location header**
+
+![Create](docs/screenshots/rest-api-create.png)
+
+**List items**
+
+![Fetch](docs/screenshots/rest-api-fetch.png)
+
+### WebSocket
+
+**Client A — receives its own echo, then B's join notice and broadcast message**
+
+![Client A](docs/screenshots/websocket-client-a.png)
+
+**Client B**
+
+![Client B](docs/screenshots/websocket-client-b.png)
+
+**Health check reporting two live connections**
+
+![WS health](docs/screenshots/websocket-healthcheck.png)
